@@ -120,7 +120,7 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 } 
-.home-title, h1, h2 {
+.home-title, h1, h2, h3 {
     font-family: 'Do Hyeon', sans-serif;
 }
 h2 {
@@ -224,6 +224,47 @@ nav {
     opacity: .6;
     transform: scale(1.1);
 }
+
+/* this is the start of the blog page code */
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.group-people {
+    float: left;
+    border: 20px tan;
+}
+.rafters {
+    float: right;
+    border: 20px tan;
+    width: 35%;
+    height: 35%;
+}
+.begin {
+    padding: 50px;
+    padding: 0 auto;
+}
+.last {
+    padding: 50px;
+}
+.zeroblog {
+    padding: 50px;
+}
+.firstblog {
+    width: 80%;
+    height: 70%;
+    padding-left: 50px;
+    text-align: center;
+}
+.secblog {
+    width: 80%;
+    height: 80%;
+    padding-right: 50px;
+    text-align: center;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
