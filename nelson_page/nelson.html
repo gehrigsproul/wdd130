@@ -17,6 +17,50 @@
         <h9>"Because of the Savior's Atonement, His gospel provides an invitation to keep changing, growing, and becoming more pure."</h9>
         <h10>Russell M. Nelson</h10>
         <h11>President of the Church of Jesus Christ of Latter-day Saints</h11>
+        <section>
+            <H12>
+                President Nelson is my 
+            </H12>
+            <div class="tab">
+                <button class="tablinks" onmouseover="openCity(event, 'London')">Favorite</button>
+                <button class="tablinks" onmouseover="openCity(event, 'Paris')">Second Favorite</button>
+                <button class="tablinks" onmouseover="openCity(event, 'Tokyo')">He's up there</button>
+                <div id="first" class="tabcontent">
+                    <h3>Favorite</h3>
+                  </div>
+                  
+                  <div id="second" class="tabcontent">
+                    <h3>Second Favorite</h3>
+                  </div>
+                  
+                  <div id="Third" class="tabcontent">
+                    <h3>He's up there</h3>
+                  </div>
+            </div>
+            <script>
+                function openCity(evt, cityName) {
+                // Declare all variables
+                var i, tabcontent, tablinks;
+              
+                // Get all elements with class="tabcontent" and hide them
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                  tabcontent[i].style.display = "none";
+                }
+              
+                // Get all elements with class="tablinks" and remove the class "active"
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                  tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+              
+                // Show the current tab, and add an "active" class to the link that opened the tab
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+              }
+            </script>
+            <h13>prophet.</h13>
+        </section>
     </main>
     <footer>
     </footer>
