@@ -117,6 +117,29 @@ footer a:hover {
     margin: 0 5px;
 }
 
+/* second page stuff*/
+
+.me-grid {
+    text-align: center;
+    padding: 20px;
+}
+
+.infome img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #0077b6;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
 /* Responsive Design */
 @media (max-width: 768px) {
     .home-grid {
